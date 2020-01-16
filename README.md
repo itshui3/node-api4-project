@@ -16,3 +16,22 @@ Pick any API, could be one of your past projects, and deploy it to `heroku`. Onc
 
 
 #Deployed Link: https://node-api2-deploy-1-16-thurs.herokuapp.com/
+
+EndPoints : 
+
+
+/api/posts 
+  - GET posts
+  - POST new post
+    { "title": "", "name": "" }
+    
+/api/posts/:id 
+  - GET post by id
+  - DELETE post by id
+  - PUT post by id
+    { "title": "", "contents": "" }
+    
+/api/posts/:id/comments
+  - GET comments at post id
+  - POST comment at post id
+
